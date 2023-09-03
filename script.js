@@ -4,6 +4,7 @@ const menu = document.querySelector(".menu");
 close.addEventListener("click", () => {
   menu.style.visibility = "hidden";
 });
+
 open.addEventListener("click", () => {
   menu.style.visibility = "visible";
 });
